@@ -7,8 +7,6 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=12345
-      - POSTGRES_DB=devcamp
+      - POSTGRES_DB=devcamp2022
     ports:
-      - 5555:5432
-    volumes:
-      - ./db/db-data:/var/lib/postgresql/data
+      - 9000:5432
