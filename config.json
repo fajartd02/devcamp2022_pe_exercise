@@ -1,0 +1,4 @@
+{
+    "connection_string": "root:root@tcp(127.0.0.1:9000)/devcamp2022",
+    "port": 8080
+}
