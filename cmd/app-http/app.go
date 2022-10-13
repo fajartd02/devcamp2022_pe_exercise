@@ -1,6 +1,6 @@
 package main
 
 func startApp() error {
-	router := newRoutes(bookHandler)
+	router := newRoutes()
 	return startServer(router)
 }
